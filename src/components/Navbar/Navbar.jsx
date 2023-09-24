@@ -18,16 +18,22 @@ export default function Navbar () {
   };
 
   const handleClick = () => {
-    setIsCollapsed(prevIsCollapsed => !prevIsCollapsed);
+    setIsCollapsed((prevIsCollapsed) => !prevIsCollapsed);
   };
 
   return (
     <>
       {/* renderizado condicional de la clase */}
-      <nav className={`navbar ${isSticky ? 'sticky' : ''} ${isCollapsed ? 'collapsed' : ''}`}>
+      <nav
+        className={`navbar ${isSticky ? 'sticky' : ''} ${
+          isCollapsed ? 'collapsed' : ''
+        }`}
+      >
         <div className='left'>
           <div className='navbar__logo'>
-            <img src='../../public/dental_logo.png' alt='dental logo' />
+            <a href='#'>
+              <img src='../../public/dental_logo.png' alt='dental logo' />
+            </a>
           </div>
         </div>
         <div className='right'>
