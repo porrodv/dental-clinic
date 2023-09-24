@@ -4,14 +4,6 @@
   --sidebarWidth: 40vw;
   --linkHoverColor: rgba(19, 96, 211, 1);
 }
-ul {
-  padding: 0;
-  margin: 0;
-}
-a {
-  text-decoration: none;
-  color: #000;
-}
 
 /* Navbar */
 .navbar {
@@ -27,13 +19,21 @@ a {
   transition: background-color 0.25s;
   margin-bottom: 0.8rem;
 
+  & ul {
+    padding: 0;
+    margin: 0;
+  }
+  & a {
+    text-decoration: none;
+    color: #000;
+  }
   & * {
     font-size: 1.1rem;
     font-family: Roboto, sans-serif;
   }
 }
-.navbar .left,
-.navbar .right {
+.navbar__left,
+.navbar__right {
   display: grid;
   place-items: center;
 }
@@ -69,15 +69,17 @@ a {
     color: #000;
     transition: all 0.1s;
   }
+
   &:hover {
     cursor: pointer;
+
+    & a {
+      color: var(--linkHoverColor);
+      transform: scale(1.2);
+    }
   }
 }
-.navbar__link:hover a {
-  color: var(--linkHoverColor);
-  transform: scale(1.2);
-}
-#navbar__reserve-btn {
+#navbar__reserve {
   position: relative;
   padding: 8px 2px;
   border-radius: 10px;
@@ -137,7 +139,7 @@ a {
   }
 }
 
-.navbar.sticky {
+.navbar.navbar--sticky {
   background-color: var(--navbarBackground);
   position: fixed;
   z-index: 40;
@@ -174,7 +176,7 @@ a {
 
 /* RESPONSIVE */
 @media screen and (max-width: 890px) {
-  .navbar #navbar__toggler {
+  #navbar__toggler {
     opacity: 1;
     position: absolute;
     color: red;
@@ -215,24 +217,23 @@ a {
     width: var(--sidebarWidth);
     height: 100vh;
     gap: 5px;
+  }
+  .navbar__link {
+    width: 100%;
+    padding: 0;
 
-    & .navbar__link {
-      width: 100%;
-      padding: 0;
-
-      & a {
-        color: #fff;
-      }
+    &:first-child{
+      margin-top: 80px;
     }
-    & #navbar__reserve-btn {
-      margin-top: 20px;
+    & a {
+      color: #fff;
     }
   }
-  .navbar__link:first-child {
-    margin-top: 80px;
-  }
-  .navbar .left {
+  .navbar__left {
     display: none;
+  }
+  #navbar__reserve-btn {
+    margin-top: 20px;
   }
 
   .navbar.collapsed {
@@ -259,9 +260,6 @@ a {
     & .navbar__links {
       left: 0;
       min-width: 300px;
-    }
-    & .navbar__link:hover a {
-      color: var(--linkHoverColor);
     }
 
     & #navbar__toggler {

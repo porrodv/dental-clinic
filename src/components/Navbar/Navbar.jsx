@@ -25,18 +25,18 @@ export default function Navbar () {
     <>
       {/* renderizado condicional de la clase */}
       <nav
-        className={`navbar ${isSticky ? 'sticky' : ''} ${
+        className={`navbar ${isSticky ? 'navbar--sticky' : ''} ${
           isCollapsed ? 'collapsed' : ''
         }`}
       >
-        <div className='left'>
+        <div className='navbar__left'>
           <div className='navbar__logo'>
             <a href='#'>
               <img src='../../public/dental_logo.png' alt='dental logo' />
             </a>
           </div>
         </div>
-        <div className='right'>
+        <div className='navbar__right'>
           <ul className='navbar__links'>
             <li className='navbar__link'>
               <a href='#'>Inicio</a>
@@ -51,7 +51,7 @@ export default function Navbar () {
               <a href='#'>Contacto</a>
             </li>
             <li>
-              <a href='#' id='navbar__reserve-btn' type='button'>
+              <a href='#' id='navbar__reserve' type='button'>
                 Reservar
               </a>
             </li>
@@ -61,7 +61,6 @@ export default function Navbar () {
         <button
           id='navbar__toggler'
           typeof='button'
-          title='navbar__toggler-btn'
           onClick={handleClick}
         >
           <div className='line1' />
