@@ -1,0 +1,42 @@
+main.main {
+  position: absolute;
+  top: var(--navbarHeight);
+  left: 0;
+  margin: 1rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: flex-start;
+
+  & h1,
+  h2 {
+    margin: 0;
+  }
+}
+
+.main .left {
+}
+.main .right {
+  height: 500px;
+  overflow: hidden;
+  display: flex;
+  justify-content: end;
+
+  & img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.main__title {
+  & * {
+    font-size: 2rem;
+  }
+  & .primary {
+    color: var(--linkHoverColor);
+    font-size: 2.2rem;
+  }
+}
+.main__info {
+  font-size: 1.05rem;
+}
