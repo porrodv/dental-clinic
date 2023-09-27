@@ -14,21 +14,48 @@ export default function MainInfo () {
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Reprehenderit ut modi at minima soluta asperiores distinctio nemo
             impedit vel, deserunt molestias optio. Commodi, iusto ea eaque
-            laborum vero nemo tempora!
-            lore
+            laborum vero nemo tempora! lore
           </p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, autem? Totam eum sed perspiciatis qui perferendis recusandae, neque aperiam aliquid impedit necessitatibus cumque. Veniam, unde eveniet porro minus ipsam harum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, autem? Totam eum sed perspiciatis qui perferendis recusandae, neque aperiam aliquid impedit necessitatibus cumque. Veniam, unde eveniet porro minus ipsam harum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, autem? Totam eum sed perspiciatis qui perferendis recusandae, neque aperiam aliquid impedit necessitatibus cumque. Veniam, unde eveniet porro minus ipsam harum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, autem? Totam eum sed perspiciatis qui perferendis recusandae, neque aperiam aliquid impedit necessitatibus cumque. Veniam, unde eveniet porro minus ipsam harum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, autem? Totam eum sed perspiciatis qui perferendis recusandae, neque aperiam aliquid impedit necessitatibus cumque. Veniam, unde eveniet porro minus ipsam harum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, autem? Totam eum sed perspiciatis qui perferendis recusandae, neque aperiam aliquid impedit necessitatibus cumque. Veniam, unde eveniet porro minus ipsam harum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, autem? Totam eum sed perspiciatis qui perferendis recusandae, neque aperiam aliquid impedit necessitatibus cumque. Veniam, unde eveniet porro minus ipsam harum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, autem? Totam eum sed perspiciatis qui perferendis recusandae, neque aperiam aliquid impedit necessitatibus cumque. Veniam, unde eveniet porro minus ipsam harum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, autem? Totam eum sed perspiciatis qui perferendis recusandae, neque aperiam aliquid impedit necessitatibus cumque. Veniam, unde eveniet porro minus ipsam harum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, autem? Totam eum sed perspiciatis qui perferendis recusandae, neque aperiam aliquid impedit necessitatibus cumque. Veniam, unde eveniet porro minus ipsam harum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, autem? Totam eum sed perspiciatis qui perferendis recusandae, neque aperiam aliquid impedit necessitatibus cumque. Veniam, unde eveniet porro minus ipsam harum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, autem? Totam eum sed perspiciatis qui perferendis recusandae, neque aperiam aliquid impedit necessitatibus cumque. Veniam, unde eveniet porro minus ipsam harum?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, autem?
+          Totam eum sed perspiciatis qui perferendis recusandae, neque aperiam
+          aliquid impedit necessitatibus cumque. Veniam, unde eveniet porro
+          minus ipsam harum? Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Sequi, autem? Totam eum sed perspiciatis qui perferendis
+          recusandae, neque aperiam aliquid impedit necessitatibus cumque.
+          Veniam, unde eveniet porro minus ipsam harum? Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Sequi, autem? Totam eum sed
+          perspiciatis qui perferendis recusandae, neque aperiam aliquid impedit
+          necessitatibus cumque. Veniam, unde eveniet porro minus ipsam harum?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, autem?
+          Totam eum sed perspiciatis qui perferendis recusandae, neque aperiam
+          aliquid impedit necessitatibus cumque. Veniam, unde eveniet porro
+          minus ipsam harum? Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Sequi, autem? Totam eum sed perspiciatis qui perferendis
+          recusandae, neque aperiam aliquid impedit necessitatibus cumque.
+          Veniam, unde eveniet porro minus ipsam harum? Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Sequi, autem? Totam eum sed
+          perspiciatis qui perferendis recusandae, neque aperiam aliquid impedit
+          necessitatibus cumque. Veniam, unde eveniet porro minus ipsam harum?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, autem?
+          Totam eum sed perspiciatis qui perferendis recusandae, neque aperiam
+          aliquid impedit necessitatibus cumque. Veniam, unde eveniet porro
+          minus ipsam harum? Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Sequi, autem? Totam eum sed perspiciatis qui perferendis
+          recusandae, neque aperiam aliquid impedit necessitatibus cumque.
+          Veniam, unde eveniet porro minus ipsam harum? Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Sequi, autem? Totam eum sed
+          perspiciatis qui perferendis recusandae, neque aperiam aliquid impedit
+          necessitatibus cumque. Veniam, unde eveniet porro minus ipsam harum?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, autem?
+          Totam eum sed perspiciatis qui perferendis recusandae, neque aperiam
+          aliquid impedit necessitatibus cumque. Veniam, unde eveniet porro
+          minus ipsam harum? Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Sequi, autem? Totam eum sed perspiciatis qui perferendis
+          recusandae, neque aperiam aliquid impedit necessitatibus cumque.
+          Veniam, unde eveniet porro minus ipsam harum? Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Sequi, autem? Totam eum sed
+          perspiciatis qui perferendis recusandae, neque aperiam aliquid impedit
+          necessitatibus cumque. Veniam, unde eveniet porro minus ipsam harum?
         </div>
         <div className='right'>
           <img src='../../public/doctor1.png' alt='' />
