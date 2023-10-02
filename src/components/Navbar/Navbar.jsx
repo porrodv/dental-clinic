@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import CustomButton from '../CustomButton/CustomButton';
 import './styles.css';
 
 export default function Navbar () {
@@ -51,9 +52,7 @@ export default function Navbar () {
               <a href='#'>Contacto</a>
             </li>
             <li>
-              <a href='#' id='navbar__reserve' type='button'>
-                Reservar
-              </a>
+              <CustomButton text='Reservar' link='#' id='navbar__reserve' animationStyle={2} />
             </li>
           </ul>
         </div>

@@ -5,8 +5,6 @@ export default function MainPage () {
   return (
     <>
       <Navbar />
-      <Navbar />
-      holoa
       <MainInfo />
     </>
   );

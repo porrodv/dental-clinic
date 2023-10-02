@@ -1,0 +1,75 @@
+:root {
+  --primary-cbutton: rgba(19, 96, 211, 1);
+  --secondary-cbutton: rgba(160, 212, 241, 1);
+}
+
+.cbutton {
+  font-family: Roboto, sans-serif;
+  position: relative;
+  padding: 8px 25px;
+  border-radius: 10px;
+  height: 24px;
+  display: grid;
+  /* width: React inline style */
+  border: none;
+  place-content: center;
+  text-decoration: none;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  color: #fff;
+  font-weight: 600;
+  overflow: hidden;
+  transition: all 0.15s;
+  z-index: 10; /* testing this */
+
+  box-shadow: 2px 4px 4px 1px rgba(77, 77, 77, 0.75);
+  -webkit-box-shadow: 2px 4px 4px 1px rgba(77, 77, 77, 0.75);
+  -moz-box-shadow: 2px 4px 4px 1px rgba(77, 77, 77, 0.75);
+
+  &:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-radius: 10px;
+    z-index: -1;
+    transition: all 0.15s;
+    width: 0%;
+    background: linear-gradient(
+      90deg,
+      var(--secondary-cbutton) 0%,
+      var(--primary-cbutton) 0%
+    );
+  }
+  &:hover {
+    &:before {
+      width: 100%;
+    }
+  }
+
+
+  &.cbutton--leftright {
+    background: linear-gradient(
+      90deg,
+      var(--primary-cbutton) 0%,
+      var(--secondary-cbutton) 100%
+    );
+
+    &:before {
+      bottom: 0;
+      left: 0;
+    }
+  }
+
+  &.cbutton--rightleft {
+    background: linear-gradient(
+      90deg,
+      var(--secondary-cbutton) 0%,
+      var(--primary-cbutton) 100%
+    );
+
+    &:before {
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
